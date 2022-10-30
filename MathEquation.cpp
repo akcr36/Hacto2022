@@ -12,5 +12,7 @@ int Fibonacci(int n)
 
 int main()
 {
+  // calling Fibonacci for n = 5;
+  cout<<Fibonacci(5)<<endl;
   return 0;
 }

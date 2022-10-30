@@ -9,6 +9,12 @@ int Fibonacci(int n)
   return Fibonacci(n-1) + Fibonacci(n-2);
 }
 
+int Fact (int n)
+{
+  if (n ==0) return 1;
+  return n * Fact(n-1);
+}
+
 
 int main()
 {

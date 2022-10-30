@@ -20,5 +20,9 @@ int main()
 {
   // calling Fibonacci for n = 5;
   cout<<Fibonacci(5)<<endl;
+  
+  // calling Factorial for n = 7;
+  cout<<Fact(7)<<endl;
+  
   return 0;
 }
